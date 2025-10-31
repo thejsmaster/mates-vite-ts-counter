@@ -5,4 +5,4 @@ const App = () => {
   return () => html`${view(Counter)}`;
 };
 
-renderView(App, document.getElementById('app'));
+renderView(App, document.getElementById('app') as HTMLElement);

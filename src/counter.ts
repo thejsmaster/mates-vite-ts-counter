@@ -1,4 +1,4 @@
-import { html, renderView, setter } from 'mates';
+import { html, setter } from 'mates';
 
 export const Counter = () => {
   // Mutable state - just JavaScript!
